@@ -9,6 +9,8 @@ if (randomNumber1 > randomNumber2) {
     document.querySelector('h1').innerHTML = 'Player Two Wins!';
 } else if (randomNumber1 == randomNumber2) {
     document.querySelector('h1').innerHTML = 'Players Draw!';
+}else{
+    document.querySelector('h1').innerHTML = 'RefreshPage!';
 }
 
 
